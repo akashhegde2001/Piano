@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+
+<head>
+  <meta charset="utf-8">
+  <title>Drum Kit</title>
+  <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+  <h1 id="title">Piano</h1>
+  <div class="set">
+    <button class="A white" id="C4">A</button>
+    <button class="W black" id="Db4">W</button>
+    <button class="S white"id="D4">S</button>
+    <button class="E black" id="Eb4">E</button>
+    <button class="D white" id="E4">D</button>
+    <button class="F white" id="F4">F</button>
+    <button class="T black" id="Gb4">T</button>
+    <button class="G white" id="G4">G</button>
+    <button class="Y black" id="Ab4">Y</button>
+    <button class="B white" id="A4">B</button>
+    <button class="U black" id="Bb4">U</button>
+    <button class="H white" id="B4">H</button>
+    <button class="J white" id="C5">J</button>
+    <button class="O black" id="Db5">O</button>
+    <button class="K white" id="D5">K</button>
+    <button class="P black" id="Eb5">P</button>
+    <button class="L white" id="E5">L</button>
+    <p class="hel">HELLO</p>
+  </div>
+<div class="hide">
+    <button class="btn" onclick="fun()">Hide note names</button>
+</div>
+
+  <footer>
+
+  </footer>
+  <script src="index.js">
+function fun()
+{
+    document.getElementsByClassName("hel").innerHTML="";
+    document.getElementsByClassName("black").innerHTML="";
+}
+   
+  </script>
+</body>
+
+</html>
